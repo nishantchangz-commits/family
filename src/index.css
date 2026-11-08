@@ -1,0 +1,69 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-display: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-body: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "Space Mono", monospace;
+
+  --color-saffron-50: #fff7ed;
+  --color-saffron-100: #ffedd5;
+  --color-saffron-200: #fed7aa;
+  --color-saffron-500: #f97316;
+  --color-saffron-600: #ea580c;
+  --color-saffron-700: #d35400;
+  --color-saffron-800: #9e3d00;
+  --color-saffron-900: #7c2e00;
+
+  --color-mint-50: #ecfdf5;
+  --color-mint-100: #d1fae5;
+  --color-mint-500: #10b981;
+  --color-mint-600: #059669;
+  --color-mint-700: #047857;
+  --color-mint-800: #006c4a;
+
+  --color-turmeric-50: #fefce8;
+  --color-turmeric-100: #fef9c3;
+  --color-turmeric-400: #facc15;
+  --color-turmeric-500: #eab308;
+  --color-turmeric-600: #ca8a04;
+
+  --color-hearth-canvas: #fdfbf7;
+  --color-hearth-card: #ffffff;
+  --color-hearth-border: rgba(226, 109, 30, 0.12);
+  --color-hearth-slate: #1e293b;
+}
+
+:root {
+  font-family: var(--font-body);
+  color: #1e293b;
+  background-color: #fdfbf7;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Culinary Hearth Custom Card Shadows */
+.shadow-hearth-1 {
+  box-shadow: 0 2px 8px -2px rgba(30, 41, 59, 0.04), 0 4px 16px -4px rgba(211, 84, 0, 0.06);
+}
+
+.shadow-hearth-2 {
+  box-shadow: 0 8px 24px -6px rgba(211, 84, 0, 0.12), 0 2px 6px -1px rgba(30, 41, 59, 0.04);
+}
+
+.shadow-hearth-modal {
+  box-shadow: 0 20px 32px -8px rgba(30, 41, 59, 0.14), 0 8px 16px -4px rgba(211, 84, 0, 0.08);
+}
+
+/* Quick-commerce express hairline gradient ring */
+.ring-express-gradient {
+  background: linear-gradient(135deg, #facc15 0%, #d35400 100%);
+  padding: 1.5px;
+}

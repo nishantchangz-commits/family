@@ -1,0 +1,6 @@
+{
+  "name": "Culinary Hearth",
+  "description": "Modern Indian culinary home inventory, communal meal voting, and quick-commerce pantry logistics.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
